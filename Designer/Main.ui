@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WaiwaiVidi</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label {
+	font-size: 20pt
+}</string>
+   </property>
+   <property name="text">
+    <string>Insert Youtube Link Here</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="linkLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>591</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#linkLineEdit {
+	font-size: 17pt
+}</string>
+   </property>
+   <property name="text">
+    <string>https://youtube.com</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="dlOptionComboBox">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>50</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#dlOptionComboBox {
+	font-size: 15pt;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1080p60fps</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="dlButton">
+   <property name="geometry">
+    <rect>
+     <x>275</x>
+     <y>120</y>
+     <width>250</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#dlButton {
+	font-size: 15pt;
+}</string>
+   </property>
+   <property name="text">
+    <string>Download</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>230</y>
+     <width>671</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#progressLabel {
+	font-size: 13pt
+}</string>
+   </property>
+   <property name="text">
+    <string>Progress</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
